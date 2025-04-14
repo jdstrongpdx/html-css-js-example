@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <!-- FizzBuzz Section -->
+        <h1>FizzBuzz Example</h1>
+
+            <button id="decrement" onClick="decrement()">-</button>
+            <span id="counter">0</span>
+            <button id="increment" onClick="increment()">+</button>
+            <p id="FizzBuzz"></p>
+
+        <script src="script.js"></script>
+
+        <!-- Fetch People Section -->
+        <h2>Random People List</h2>
+        <button onclick="fetchPeople()">Load People</button>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+              </tr>
+            </thead>
+            <tbody id="people-table-body">
+              <!-- Rows go here -->
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
